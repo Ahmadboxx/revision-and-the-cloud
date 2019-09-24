@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+#Git
 
-You can use the [editor on GitHub](https://github.com/Ahmadboxx/revision-and-the-cloud/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Distributed means that every user has a full copy of the history.
+Version Control System means that it's designed to keep records of changes, allow you to examine differences between changes (diffing), allow you to create separate sets of changes on the same information (branching), and allow you to bring separate changes together into one place (merging).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Git States
 
-### Markdown
+There are three states for your files to be in when you’re working with Git. These three states are: modified, staged and committed.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When you make changes to a file in your working directory, it is then modified, but these modifications are not stored in the codebase. When you stage the file, these changes are marked to be saved in the next commit. When you commit the file, these changes are finally stored in your codebase.
 
-```markdown
-Syntax highlighted code block
+![](https://blog.udemy.com/wp-content/uploads/2015/08/image027.png)
 
-# Header 1
-## Header 2
-### Header 3
+$ git branch
+*master
 
-- Bulleted
-- List
+git status
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ahmadboxx/revision-and-the-cloud/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+$ git branch --no-merged
+testing
